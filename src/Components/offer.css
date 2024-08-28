@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#bgoffer{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#pizzabg{
+    padding: 0px;
+    margin: 0px;
+}
+#offdialogue{
+    font-weight: bold;
+    font-size: 40px;
+
+}
+#pizzabg1{
+    height: 30vh;
+    width: 90%;
+}
+#price{
+    font-size: 150px;
+    margin-top: -30px;
+    font-weight: bold;
+}
+@media(max-width:480px){
+    #bgoffer{
+        height: 150vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #pizzabg{
+        padding: 0px;
+        margin-left: -70px;
+    }
+}

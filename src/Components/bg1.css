@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#bg1{
+    background-image: url("https://img.freepik.com/free-photo/golden-cutlery-with-textile-plate-dark-background-top-view_1220-6580.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav1{
+    background:inherit;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.308);
+}
+#fudhub{
+    font-family: "Platypi", serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+#navitems{
+    margin-left: 600px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: white;
+}
+#Fh-and-slogan{
+    margin-top: 150px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#fhub{
+    font-size: 150px;
+    font-weight: bold;
+}
+#slogan{
+    font-size: 70px;
+    line-height: 1;
+    font-weight: bold;
+}
+@media(max-width:480px){
+    #fhub{
+        font-size: 70px;
+    }
+    #Fh-and-slogan{
+        margin-left: 30px;
+        margin-top: 150px;
+    }
+    #slogan{
+        font-size: 40px;
+    }
+}
