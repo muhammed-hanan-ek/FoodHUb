@@ -1,7 +1,7 @@
 import React from 'react'
 import pizza from './images/pizza.png'
 import './offer.css'
-import pizzabg from './images/pizzabg.png'
+
 
 const pizzaOffer = () => {
   return (
